@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 214 120">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-logo);
+      }
+
+      .cls-2, .cls-4 {
+        fill: #e4002b;
+      }
+
+      .cls-2 {
+        font-size: 100px;
+        font-family: MuseoSansCyrl-900, "Museo Sans Cyrl 900";
+        font-weight: 900;
+        letter-spacing: 0.05em;
+      }
+
+      .cls-3 {
+        fill: #000;
+      }
+    </style>
+    <clipPath id="clip-logo">
+      <rect width="214" height="120"/>
+    </clipPath>
+  </defs>
+  <g id="logo" class="cls-1">
+    <text id="_.YES" data-name=".YES" class="cls-2" transform="translate(0 94.338)"><tspan class="cls-3" x="0" y="0">.</tspan><tspan class="cls-4" y="0">YES</tspan></text>
+  </g>
+</svg>

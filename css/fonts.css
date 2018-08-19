@@ -1,0 +1,11 @@
+@font-face {
+    font-family: Museo;
+    font-weight: 900;
+    src: url("../fonts/MuseoSansCyrl-900.ttf");
+}
+
+@font-face {
+    font-family: Gilroy;
+    font-weight: normal;
+    src: url("../fonts/Gilroy.ttf");
+}
