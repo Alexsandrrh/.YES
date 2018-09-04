@@ -7,7 +7,7 @@
     }
 
     .logo {
-        height: 25px;
+        height: 35px;
     }
 
     .contacts {
@@ -19,10 +19,12 @@
     }
 
     .contacts p {
-        margin-bottom: 8px;
+        font-weight: 300;
+        margin-bottom: 5px;
     }
 
     .contacts a {
+        font-weight: 300;
         color: #f5112c;
         border-bottom: 1px solid #fa8895;
     }
