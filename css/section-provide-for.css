@@ -1,4 +1,7 @@
 @media screen and (min-width: 320px ){
+    .section-provide-for {
+        margin-bottom: 80px;
+    }
 
     .block-provide-for__headline {
         display: flex;

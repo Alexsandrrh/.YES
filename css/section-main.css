@@ -1,4 +1,8 @@
 @media screen and (min-width: 320px){
+    .section-main {
+        margin-bottom: 80px;
+    }
+
     .flex-main {
         display: flex;
         justify-content: center;
