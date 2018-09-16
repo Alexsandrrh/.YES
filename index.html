@@ -15,11 +15,14 @@
     <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/section-main.css">
     <link rel="stylesheet" type="text/css" href="css/section-examples.css">
+    <link rel="stylesheet" type="text/css" href="css/section-provide-for.css">
+    <link rel="stylesheet" type="text/css" href="css/section-teachers.css">
+    <link rel="stylesheet" type="text/css" href="css/section-price.css">
 </head>
 <body>
 
     <!-- start code -->
-    <!-- header -->
+    <!-- header.css -->
     <header class="header">
         <div class="container">
             <div class="mobile-header">
@@ -29,19 +32,35 @@
                     <a href="tel:+7945465467">Заказать звонок</a>
                 </div>
             </div>
+            <div class="desktop-header">
+                <embed src="img/logo.svg" class="logo">
+                <p>г. Москва ул. Северная, 35</p>
+                <p>+7 (945) 46-54-67</p>
+                <a href="">Заказать звонок</a>
+            </div>
         </div>
     </header>
 
-    <!-- section-main -->
+    <!-- section-main.css -->
     <section class="section-main">
         <div class="container">
             <div class="flex-main">
-                <img class="main-bg" src="img/bg-1.png">
+                <div class="min round pad-desktop"></div>
+                <div class="max round pad-desktop"></div>
+                <div class="wave pad-desktop">
+                    <div class="circle circle1"></div>
+                    <div class="circle circle2"></div>
+                </div>
+                <div class="block__main-bg">
+                    <div class="min round mobile"></div>
+                    <div class="max round mobile"></div>
+                    <img class="main-bg" src="img/bg-1.png">
+                </div>
                 <div class="block-main__content">
                     <h3>ускоренный</h3>
                     <h2>2-х месячный курс</h2>
                     <h2>английского языка</h2>
-                    <span></span>
+                    <span class="line-for"></span>
                     <p>Освойте английский для путешествий и научитесь объясняться в любой ситуации</p>
                     <a href="">Записаться на пробное занятие</a>
                 </div>
@@ -78,11 +97,91 @@
                         <p>Все это портит впечатление от отдыха и отбивает желание посещать новые страны</p>
                         <img src="img/04.png">
                     </div>
-
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- section-provide-for.css -->
+    <section class="section-provide-for">
+        <div class="container">
+            <div class="flex-provide-for">
+                <div class="block-provide-for__headline">
+                    <h2>Мы предусмотрели эти ситуации</h2>
+                    <span class="line-for"></span>
+                </div>
+                <div class="block-provide-for__contents">
+                    <div class="block-provide-for__content">
+                        <div class="block-provide-for__content-head">
+                            <div class=""></div>
+                            <h3>Значение</h3>
+                        </div>
+                        <p>Разбираем те ситуации, с которыми сталкивается путешественник</p>
+                    </div>
+
+                    <div class="block-provide-for__content">
+                        <div class="block-provide-for__content-head">
+                            <div class=""></div>
+                            <h3>Понимание</h3>
+                        </div>
+                        <p>Учим объясняться сами и понимать, что говорят другие</p>
+                    </div>
+
+                    <div class="block-provide-for__content">
+                        <div class="block-provide-for__content-head">
+                            <div class=""></div>
+                            <h3>Практика</h3>
+                        </div>
+                        <p>Проводим диалоги с преподавателями и носителями языка</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-teachers.css -->
+    <section class="section-teachers">
+        <div class="container">
+            <div class="flex-teacher">
+                <div class="block-teacher__headline">
+                    <h2>Кто ведет курс</h2>
+                </div>
+                <div class="block-teacher__contents">
+                    <div class="block-teacher__content">
+                        <img src="img/tch-1.png">
+                        <h3>Алла Ристовская</h3>
+                        <p>Занимается преподаванием английского языка с 2007 года. За 7 лет практики Алла занималась более чем с 80 студентами. Очень любит путешествовать: неоднократно бывала зарубежом, проходила практику в США (Нью-Йорк) и Великобритании (Лондон).</p>
+                    </div>
+
+                    <div class="block-teacher__content">
+                        <img src="img/tch-2.png">
+                        <h3>Анастасия Левчук</h3>
+                        <p>Закончила Алтайскую Государственную педагогическую Академию по специальности "теория и методика преподавания иностранных языков и культур". Также имеется дополнительная квалификация "переводчик в сфере профессиональной коммуникации".
+                        </p>
+                    </div>
+
+                    <div class="block-teacher__content">
+                        <img src="img/tch-3.png">
+                        <h3>Евгений Пак</h3>
+                        <p>Сетифицированный спеуиалист (диплом ОмГПУ, TTC в Кембридже, TESOL в Лондоне). Имеет богатый опыт работы на английском языке: от обучения в языковых школах до выполнения функции переводчика на различных конференциях. Более года Евгений жил в г. Сиэтл (США).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-price.css -->
+    <section class="section-price">
+        <div class="container">
+            <div class="flex-price">
+                <div class="block-flex__headline">
+                    <div class="big-bubble"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
 
 </body>

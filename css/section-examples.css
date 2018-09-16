@@ -4,6 +4,13 @@
         background-color: #f8f8f8;
     }
 
+    .flex-examples {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
     .block-examples__headline {
         position: relative;
         width: 290px;

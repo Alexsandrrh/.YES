@@ -30,3 +30,69 @@ button, input {
 section {
     margin-bottom: 80px;
 }
+
+body {
+    overflow-x: hidden;
+}
+
+.line-for {
+    display: block;
+    width: 65px;
+    height: 8px;
+    background-color: #f5112c;
+    margin: 18px 0;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 320px){
+    .mobile {
+        display: block;
+    }
+
+    .mobile-pad {
+        display: block;
+    }
+
+    .pad {
+        display: none;
+    }
+
+    .desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .mobile {
+        display: none;
+    }
+
+    .pad {
+        display: block;
+    }
+
+    .pad-desktop {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .mobile {
+        display: none;
+    }
+
+    .pad {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+}

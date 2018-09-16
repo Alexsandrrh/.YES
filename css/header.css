@@ -6,6 +6,10 @@
         height: 75px;
     }
 
+    .desktop-header {
+        display: none;
+    }
+
     .logo {
         height: 35px;
     }
@@ -24,6 +28,38 @@
     }
 
     .contacts a {
+        font-weight: 300;
+        color: #f5112c;
+        border-bottom: 1px solid #fa8895;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .mobile-header {
+        display: none;
+    }
+
+    .desktop-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 75px;
+    }
+
+    .desktop-header embed {
+        margin-right: auto;
+    }
+
+    .desktop-header p {
+        font-family: Gilroy;
+        font-size: 16px;
+        font-weight: 300;
+        margin-right: 30px;
+    }
+
+    .desktop-header a {
+        font-family: Gilroy;
+        font-size: 16px;
         font-weight: 300;
         color: #f5112c;
         border-bottom: 1px solid #fa8895;
