@@ -2,7 +2,6 @@
     .section-examples {
         padding: 60px 0;
         background-color: #f8f8f8;
-        margin-bottom: 80px;
     }
 
     .flex-examples {
@@ -20,6 +19,10 @@
         align-items: center;
         text-align: center;
         margin-bottom: 20px;
+    }
+
+    .block-examples__content {
+        width: 100%;
     }
 
     .examples-question {
@@ -45,6 +48,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+        margin-bottom: 40px;
     }
 
     .block-example__content h3 {
@@ -55,7 +59,11 @@
         margin-bottom: 10px;
     }
 
-    .block-example__content h4 {
+    .block-example__content-img h4 {
+        display: none;
+    }
+
+    .block-example__content-img h4 {
         font-family: Gilroy;
         font-weight: 800;
         font-size: 48px;
@@ -71,6 +79,23 @@
         color: #f5112c;
     }
 
+    .block-example__content-img h4:after {
+        position: absolute;
+        content: ".";
+        font-family: Gilroy;
+        font-size: 48px;
+        font-weight: 800;
+        color: #f5112c;
+    }
+
+    .h3-none:after{
+        color: #000000 !important;
+    }
+
+    .h4-none:after {
+        color: #000000 !important;
+    }
+
     .block-example__content p {
         font-family: Gilroy;
         font-size: 16px;
@@ -81,6 +106,138 @@
 
     .block-example__content img {
         width: 290px;
-        margin-bottom: 40px;
     }
+}
+
+@media screen and (min-width: 768px){
+
+
+    .block-examples__headline {
+        margin-right: auto;
+    }
+
+    .block-examples__headline h2{
+        text-align: left;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .block-examples__headline img {
+        right: 40px;
+        height: 160px;
+    }
+
+    .block-example__content {
+        position: relative;
+        justify-content: space-between;
+        max-width: 804px;
+        margin-bottom: 60px;
+    }
+
+    .block-example__content h4 {
+        display: block;
+        font-size: 48px;
+        position: absolute;
+    }
+
+    .block-example__content h3 {
+        display: none;
+    }
+
+    .block-example__content p {
+        text-align: left;
+        padding: 0;
+        max-width: 350px;
+    }
+
+    .block-example__content-img {
+        position: relative;
+    }
+
+    .block-example__content:first-child {
+        flex-direction: row;
+        margin-left: auto;
+    }
+
+    .block-example__content:first-child img {
+        width: 408px;
+        margin-left: 40px;
+    }
+
+
+    .block-example__content:first-child h4 {
+        top: 49px;
+        left: 15px;
+    }
+
+    .block-example__content:first-child .wave {
+        position: absolute;
+        top: 200px;
+        left: -75px;
+        width: 150px;
+    }
+
+    .block-example__content:first-child .wave .circle {
+        position: relative;
+        width: 150px;
+        height: 20px;
+        background: radial-gradient(16px, transparent, transparent 4px, #2429ff 4px, #2429ff 10px, transparent 11px);
+        background-size: 30px 40px;
+    }
+
+    .block-example__content:first-child .wave .circle2 {
+        top: -1px;
+        left: 15px;
+        background-position: 0px -20px;
+    }
+
+    .block-example__content:nth-child(2) {
+        flex-direction: row-reverse;
+        margin-right: auto;
+    }
+
+    .block-example__content:nth-child(2) img {
+        width: 345px;
+        margin-right: 40px;
+    }
+
+    .block-example__content:nth-child(2) h4 {
+        top: 30px;
+        right: 15px;
+    }
+
+    .block-example__content:nth-child(3) {
+        flex-direction: row;
+        margin-left: auto;
+    }
+
+    .block-example__content:nth-child(3) img {
+        width: 345px;
+        margin-left: 40px;
+    }
+
+    .block-example__content:nth-child(3) h4 {
+        top: 145px;
+        left: 11px;
+    }
+
+    .block-example__content:last-child {
+        flex-direction: row-reverse;
+        margin-right: auto;
+    }
+
+    .block-example__content:last-child img {
+        width: 347px;
+        margin-right: 80px;
+    }
+
+    .block-example__content:last-child h4 {
+        top: 35px;
+        right: -75px;
+    }
+
+    .block-example__content:last-child p {
+        margin-top: 90px;
+    }
+
 }

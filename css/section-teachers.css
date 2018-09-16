@@ -1,12 +1,9 @@
-@media screen and (min-width: 320px ){s
+@media screen and (min-width: 320px ){
     .section-teachers {
         margin-bottom: 20px;
     }
 
     .block-teacher__headline {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         margin-bottom: 40px;
     }
 
@@ -49,4 +46,28 @@
         font-weight: 300;
     }
 
+}
+
+
+@media screen and (min-width: 768px){
+    .block-teacher__headline {
+        margin-bottom: 55px;
+    }
+
+    .block-teacher__headline h2 {
+        text-align: left;
+        font-size: 30px;
+    }
+
+    .block-teacher__contents {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .block-teacher__content {
+        width: 355px;
+        margin-bottom: 40px;
+    }
 }

@@ -12,6 +12,7 @@
         max-width: 480px;
         height: 388px;
         margin-bottom: 40px;
+        z-index: 10;
     }
 
     .big-bubble {
@@ -36,6 +37,7 @@
     .block-price__illust img {
         position: absolute;
         left: 0;
+        height: 388px;
         z-index: 4;
     }
 
@@ -78,6 +80,10 @@
         top: -1px;
         left: 15px;
         background-position: 0px -20px;
+    }
+
+    .block-price__info {
+        padding: 0 15px;
     }
 
     .block-price__info-headline {
@@ -131,5 +137,149 @@
         font-family: Gilroy;
         font-size: 16px;
         font-weight: 300;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .flex-price {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .block-price__illust {
+        height: 875px;
+        width: 320px;
+        max-width: unset;
+        margin-right: 20px;
+    }
+
+    .block-price__illust img {
+        height: 875px;
+        left: -315px;
+    }
+
+    .big-bubble {
+        position: absolute;
+        right: 15px;
+        width: 433px;
+        height: 433px;
+    }
+
+    .big-bubble::after {
+        top: 90px;
+        right: 90px;
+        bottom: 90px;
+        left: 90px;
+    }
+
+    .block-price__illust .max {
+        top: 155px;
+        left: -71px;
+        width: 141px;
+        height: 141px;
+    }
+
+    .block-price__illust .max:after {
+        top: 26px;
+        right: 26px;
+        bottom: 26px;
+        left: 26px;
+    }
+
+    .block-price__illust .wave {
+        top: unset;
+        right: 50px;
+        width: 110px;
+        bottom: 250px;
+    }
+
+    .block-price__illust .wave .circle {
+        width: 120px;
+    }
+
+    .block-price__info {
+        width: 590px;
+        padding: 0;
+    }
+
+    .block-price__info-headline {
+        align-items: flex-start;
+    }
+
+    .block-price__info-headline h2 {
+        text-align: left;
+        max-width: none;
+    }
+
+    .block-price__info-headline p {
+        text-align: left;
+    }
+
+    .block-price__contents {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .block-price__content {
+        width: 49%;
+        align-items: flex-start;
+        margin-bottom: 35px;
+    }
+
+    .block-price__content h3 {
+        text-align: left;
+    }
+
+    .block-price__content p {
+        text-align: left;
+    }
+
+
+}
+
+@media screen and (min-width: 1366px){
+
+
+    .block-price__illust {
+        width: 495px;
+        height: 800px;
+    }
+
+    .block-price__illust img {
+        height: 800px;
+        left: -65px;
+    }
+
+    .big-bubble {
+        width: 435px;
+        height: 435px;
+        right: 0;
+    }
+
+    .big-bubble::after {
+        top: 95px;
+        right: 95px;
+        bottom: 95px;
+        left: 95px;
+    }
+
+    .block-price__illust .max {
+        width: 152px;
+        height: 152px;
+        top: 105px;
+        left: 85px;
+    }
+
+    .block-price__illust .max:after {
+        top: 33px;
+        right: 33px;
+        bottom: 33px;
+        left: 33px;
+    }
+
+    .block-price__info {
+        width: 715px;
+        margin: 0 auto;
     }
 }

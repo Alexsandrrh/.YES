@@ -53,6 +53,10 @@ body {
         display: block;
     }
 
+    .pad-desktop {
+        display: none;
+    }
+
     .pad {
         display: none;
     }
@@ -91,5 +95,12 @@ body {
 
     .desktop {
         display: block;
+    }
+}
+
+@media screen and (min-width: 1366px){
+    .max-block {
+        max-width: 1600px;
+        margin: 0 auto;
     }
 }
